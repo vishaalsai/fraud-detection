@@ -5,7 +5,7 @@ xgboost
 imbalanced-learn
 mlflow
 fastapi
-uvicorn
+uvicorn[standard]
 streamlit
 pydantic
 python-dotenv

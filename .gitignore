@@ -2,6 +2,9 @@
 data/raw/
 models/*
 !models/.gitkeep
+!models/xgboost_tuned.pkl
+!models/scaler.pkl
+!models/evaluation_results.json
 mlruns/
 __pycache__/
 *.pyc

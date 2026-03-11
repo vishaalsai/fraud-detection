@@ -1,7 +1,9 @@
+import os
+
 import requests
 import streamlit as st
 
-API_BASE = "http://localhost:8002"
+API_BASE = os.getenv("API_URL", "http://localhost:8002")
 
 # ─────────────────────────────────────────────
 # 1. PAGE CONFIG
