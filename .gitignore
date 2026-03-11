@@ -1,7 +1,7 @@
 .env
 data/raw/
-models/*.pkl
-models/*.joblib
+models/*
+!models/.gitkeep
 mlruns/
 __pycache__/
 *.pyc
